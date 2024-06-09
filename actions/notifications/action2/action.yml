@@ -1,0 +1,10 @@
+name: "Run TypeScript Action"
+description: "A custom action to run a TypeScript file"
+inputs:
+  example-input:
+    description: "An example input"
+    required: false
+    default: "default value"
+runs:
+  using: "node16"
+  main: "dist/index.js"
